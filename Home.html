@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Shop</title>
+
+    <link rel="stylesheet" href="Home.css">
+   
+
+    <script src="Home.js"></script>
+</head>
+<body>
+    
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Online Book Shop</h1>
+        <nav>
+            <ul>
+                <li class="u"><a href="Home.html">Home</a></li>
+                <li class="u"><button class="button-cate" onclick="toggleCategoryList()">Categories</button>
+            </li>
+                <li class="u"><a href="#about">About Us</a></li>
+                <li class="u"><a href="contact.html">Contact</a></li>
+                <li class="u"><a href="Loging.html" target="_blank">Login</a></li>
+            </ul>
+            <ul id="categoryList">
+                <li>Fiction</li>
+                <li>Non-Fiction</li>
+                <li>Science</li>
+                <li>History</li>
+                <li>Biographies</li>
+                <li>Children's Books</li>
+                <li>Self-Help</li>
+                <li>Mystery & Thriller</li>
+            </ul>     
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Find Your Next Great Read</h2>
+        <p>Discover a wide range of books in various genres.</p>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by book name or author">
+            <button onclick="searchBook()">Search</button>
+          </div>
+        
+    </section>
+
+    <!-- Featured Books Section -->
+    <section id="featured" class="featured-books">
+        <h2>Available Books</h2>
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="pages/Images/Harry Potter.jpg" alt="Book 1">
+                <div class="detail"> <h3>Harry Potter and Philosopher's Stone</h3>
+                <h4>J.K Rowling</h4>
+                <p>RS.950.00</p></div>
+                <button><a href = "pages/Harry Potter and Philosopher's Stone.html" target="_blank">Read More</a></button>
+            </div>
+            <div class="book-card">
+                <img src="pages/Images/It End With Us.jpeg" alt="Book 2">
+                <div class="detail"><h3>It End With Us</h3>
+                <h4>Colleen Hoover</h4>
+                <p>RS.1000.00</p></div>
+                <button><a href = "pages/It End With Us.html" target="_blank">Read More</a></button>
+            </div>
+            <div class="book-card">
+                <img src="pages/Images/Fourth Wing.jpeg" alt="Book 3">
+                <div class="detail"><h3>Fourth Wing</h3>
+                <h4>Rebeca Yarros</h4>
+                <p>RS.750.00</p></div>
+                <button><a href = "pages/Fourth Wing.html" target="_blank">Read More</a></button>
+            </div>
+            <div class="book-card">
+                <img src="pages/Images/Pride and Prejudice.jpeg" alt="Book 3">
+                <div class="detail"><h3>Pride and Prejudice</h3>
+                <h4>jane Auston</h4>
+                <p>Rs.800.00</p></div>
+                <button><a href = "pages/Pride and Prejudice.html" target="_blank">Read More</a></button>
+            </div>
+            <div class="book-card">
+                <img src="pages/Images/Load Of The Rings.jpeg" alt="Book 3">
+                <div class="detail"><h3>Load Of The Rings</h3>
+                <h4>J.R.R Tolkien</h4>
+                <p>Rs.900.00</p></div>
+                <button><a href = "pages/Load Of The Rings.html" target="_blank">Read More</a></button>
+            </div>
+            <div class="book-card">
+                <img src="pages/Images/A Game Of Throns.jpeg" alt="Book 3">
+                <div class="detail"><h3>A Game Of Throns</h3>
+                <h4>Gorge R.R. Martin</h4>
+                <p>Rs.1100.00</p></div>
+                <button><a href = "pages/A Game Of Throns.html" target="_blank">Read More</a></button>
+            </div>
+           
+           
+        </section>
+           
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Online Book Shop. All rights reserved.</p>
+        <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </footer>
+
+    
+</body>
+</html>
+
+

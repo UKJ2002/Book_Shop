@@ -1,0 +1,13 @@
+
+#categoryList { display: none; margin-top: 20px; list-style-type: none; padding: 0; }
+#categoryList li { padding: 8px; background-color: #070606; margin: 5px 0; border-radius: 5px; }
+.button-cate {
+    background-color: #333;
+    color: white;
+    border:solid #333;
+}
+
+.u {
+    display: inline;
+    margin: 0 10px;
+}

@@ -1,0 +1,146 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fourth Wing</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+        .container {
+             width: 90%; 
+             max-width: 1200px; 
+             margin: 20px auto;
+             }
+        .book-detail { 
+            display: flex; 
+            gap: 20px; 
+        }
+        .book-cover {
+             width: 300px; 
+             height: auto; 
+            }
+        .book-info {
+            flex: 1;
+         }
+        .price {
+             font-size: 1.5em; 
+             color: #b12704; 
+            }
+        .add-to-cart { 
+            background-color: #ff9900;
+             color: white; 
+             padding: 10px 20px; 
+             border: none; cursor: 
+             pointer;
+             }
+        .reviews {
+             margin-top: 20px;
+         }
+        .review { 
+            border-top: 1px solid #ddd;
+             padding: 10px 0; 
+            }
+    footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+    </style>
+
+<link rel="stylesheet" href="Category.css">
+
+<script src="Home.js"></script>
+</head>
+<body>
+    <header>
+        <h1> Online Book Shop</h1>
+        <nav>
+            <ul>
+                <li class="u"><a href="Home.html">Home</a></li>
+                <li class="u"><button class="button-cate" onclick="toggleCategoryList()">Categories</button>
+            </li>
+                <li class="u"><a href="#about">About Us</a></li>
+                <li class="u"><a href="contact.html">Contact</a></li>
+                <li class="u"><a href="Loging.html" target="_blank">Login</a></li>
+            </ul>
+            <ul id="categoryList">
+                <li>Fiction</li>
+                <li>Non-Fiction</li>
+                <li>Science</li>
+                <li>History</li>
+                <li>Biographies</li>
+                <li>Children's Books</li>
+                <li>Self-Help</li>
+                <li>Mystery & Thriller</li>
+            </ul>     
+        </nav>
+    </header>
+
+<div class="container">
+    <div class="book-detail">
+        <!-- Book Cover Image -->
+        <img src="Images\Fourth Wing.jpeg" alt="Book Cover" class="book-cover">
+
+        <!-- Book Information -->
+        <div class="book-info">
+            <h1>Fourth Wing</h1>
+            <p>by <strong>Rebeca Yarros</strong></p>
+            <p class="price">RS.750.00</p>
+            <p><strong>Publisher:</strong> Red Tower Books (Entangled Publishing)</p>
+            <p><strong>ISBN:</strong> 9781649374042</p>
+
+            <!-- Book Description -->
+            <h2>Description</h2>
+            <p>Xaden and the surviving group take Violet to a mysterious place to be healed. Time passes, and Violet wakes up healed and not knowing where she is. The book ends as Violet's brother, Brennan, walks into the room and welcomes Violet to the revolution. There you go!</p>
+
+            <!-- Add to Cart Button -->
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Customer Reviews -->
+    <div class="reviews">
+        <h2>Customer Reviews</h2>
+
+        <div class="review">
+            <p><strong></strong></p>
+            <p>Rating: ⭐⭐⭐⭐☆</p>
+            <p></p>
+        </div>
+
+       
+    </div>
+</div>
+<footer>
+    <p>&copy; 2024 Online Book Shop. All rights reserved.</p>
+    <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+</footer>
+
+</body>
+</html>
